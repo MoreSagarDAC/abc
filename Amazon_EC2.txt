@@ -1,0 +1,39 @@
+Amazon Linux command on AWS EC2
+---------------------------------------
+0.sudo yum update
+1.sudo yum install docker
+2.sudo systemctl start docker
+3.sudo systemctl enable docker
+4.sudo docker images
+5.sudo systemctl status docker
+6.sudo yum install git
+{
+If we don't want to add git file.
+then pull from docker 
+
+
+((((sudo docker pull nginx))))
+
+
+}
+
+7.git clone <link>     //sudo rm -r <Solution>
+8.ls  						--> check file
+9.cd Solution
+10.sudo docker build -t <name> .
+11.sudo docker run -d -p 2800:3000 <img id>
+12.sudo docker ps
+13.If we want to kill container (sudo docker kill container_Id)
+
+
+--------------------------------
+git status
+git add .
+git commit -m "new file"
+git push
+
+git clone path
+cd folderrepo
+docker build -t name .
+docker run -d -p port:localport name
+copy public ip address run in crome ====>ip/home
